@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { MdNightsStay, MdCurrencyExchange } from "react-icons/md";
-
+import { MdNightsStay, MdWbSunny, MdCurrencyExchange } from "react-icons/md";
 
 const Navbar = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -26,7 +25,11 @@ const Navbar = () => {
           <span className={isDarkMode ? "text-white text-xl font-bold mr-4" : "text-gray-800 text-xl font-bold mr-4"} style={{ fontFamily: 'cursive', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Exchangify</span>
         </div>
         <div className="flex items-center">
-          <MdNightsStay className={isDarkMode ? "text-white text-2xl mr-4 cursor-pointer" : "text-gray-800 text-2xl mr-4 cursor-pointer"} onClick={toggleMode} />
+          {isDarkMode ? (
+            <MdWbSunny className="text-yellow-400 text-2xl mr-4 cursor-pointer" onClick={toggleMode} />
+          ) : (
+            <MdNightsStay className="text-gray-800 text-2xl mr-4 cursor-pointer" onClick={toggleMode} />
+          )}
         </div>
       </nav>
     </div>
