@@ -1,4 +1,6 @@
 import React from 'react';
+import Text from './Text';
+
 
 const Welcome = () => {
   return (
@@ -9,6 +11,7 @@ const Welcome = () => {
       <div style={styles.subtitle}>
         <div style={{ marginBottom: '0', fontSize: '0.9rem' }}>Your Premier Platform for Cryptocurrency Trading and Digital Asset Exchange!</div>
       </div>
+      <Text/>
     </div>
   );
 };

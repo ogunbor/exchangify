@@ -12,7 +12,7 @@ const TradeNowButton = () => {
   };
 
   return (
-    <button onClick={redirectToWhatsApp} className="bg-purple-800 hover:bg-purple-700 text-white font-bold py-2 px-20 text-l mx-auto block mt-4">
+    <button onClick={redirectToWhatsApp} className="bg-purple-800 hover:bg-purple-700 text-white font-bold py-2 px-20 text-l block mt-2 mx-auto">
       Trade Now
     </button>
   );

@@ -1,11 +1,10 @@
 import React from 'react';
+import './App.css'
 
 const Text = () => {
   return (
-    <div style={styles.container}>
-      <p style={styles.text}>
-        <span style={styles.bold}>Whether you're looking to buy or sell popular cryptocurrencies</span> such as <span style={styles.highlight}>Bitcoin</span>, <span style={styles.highlight}>Pi</span>, <span style={styles.highlight}>ICE</span>, <span style={styles.highlight}>Ethereum</span>, <span style={styles.highlight}>Solana</span>, <span style={styles.highlight}>BNB</span>, <span style={styles.highlight}>LTC</span>, <span style={styles.highlight}>TRX</span>, and more, or <span style={styles.bold}>trade gift cards from major brands</span> like <span style={styles.highlight}>Google Play</span>, <span style={styles.highlight}>Amazon</span>, <span style={styles.highlight}>iTunes</span>, and <span style={styles.highlight}>Razer Gold</span>, <span style={styles.italic}>Exchangify</span> is here to <span style={styles.underline}>simplify and elevate your trading experience</span>.
-      </p>
+    <div className="animated-text" style={styles.container}>
+      For here, we dey get am clear. Whether you wan buy or sell your giftcards; or you wan trade BTC, ETH, PI, ICE, SOL, or any cryptocurrency, we dey here for you. Our rates dey sharp and in less than 5 minutes, we don pay you. We no dey delay here at all.
     </div>
   );
 };
@@ -13,31 +12,15 @@ const Text = () => {
 const styles = {
   container: {
     padding: '20px',
-    textAlign: 'left',
-    color: '#333', // Darker text color
-    fontFamily: 'Arial, sans-serif', // Font family
-    borderLeft: '2px solid #6c757d',
-    paddingLeft: '12px', // Padding left for the border
-    backgroundColor: '#fafafa', // Lighter background color
-    boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)', // Box shadow
-    marginTop: '40px', // Add margin at the top
-    marginBottom: '40px', // Add margin at the bottom
-  },
-  text: {
-    fontSize: '1rem', // Font size
-    lineHeight: '1.4', // Line height
-  },
-  bold: {
-    fontWeight: 'bold', // Bold text
-  },
-  italic: {
-    fontStyle: 'italic', // Italic text
-  },
-  highlight: {
-    color: '#007bff', // Highlighted text color
-  },
-  underline: {
-    textDecoration: 'none', // Underline text
+    backgroundColor: '#f0f0f0',
+    borderRadius: '8px',
+    boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
+    fontFamily: 'Arial, sans-serif',
+    fontSize: '0.8rem', // Reduced text size
+    lineHeight: '1.5',
+    marginTop: '30px',
+    marginBottom: '20px', // Corrected margin-bottom spelling
+    color: '#888', // Faint color
   },
 };
 
