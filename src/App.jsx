@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import ImageSlider from './ImageSlider';
 import './App.css'; 
 import Welcome from './Welcome';
+import TradeNowButton from './WhatsAppButton';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Navbar />
       <ImageSlider />
       <Welcome />
+      <TradeNowButton/>
     </div>
   );
 };
