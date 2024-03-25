@@ -47,6 +47,12 @@
     margin: 0;
     padding: 0;
   }
+
+  /* styles.css */
+.container {
+    min-height: calc(100vh - 20px); /* Adjust the value as needed */
+  }
+  
   
   
   
