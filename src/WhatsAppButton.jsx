@@ -5,7 +5,7 @@ const TradeNowButton = () => {
   const message = encodeURIComponent('Hello, I want to trade');
 
   // Construct the WhatsApp URL with the message parameter
-  const whatsappUrl = `https://wa.me/1234567890?text=${message}`;
+  const whatsappUrl = `https://wa.me/2349134692432?text=${message}`;
 
   const redirectToWhatsApp = () => {
     window.open(whatsappUrl, '_blank');
