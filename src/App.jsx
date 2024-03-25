@@ -5,6 +5,8 @@ import ImageSlider from './ImageSlider';
 import './App.css'; 
 import Welcome from './Welcome';
 import TradeNowButton from './WhatsAppButton';
+import Text from './Text';
+import Copyright from './Copyright';
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <ImageSlider />
       <Welcome />
       <TradeNowButton/>
+      <Text/>
+      <Copyright/>
     </div>
   );
 };

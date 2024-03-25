@@ -17,7 +17,7 @@ const styles = {
   container: {
     textAlign: 'left',
     padding: '20px',
-    backgroundColor: '#fafafa',
+    backgroundColor: '#ffffff',
     maxWidth: '400px',
     margin: '0 auto',
   },

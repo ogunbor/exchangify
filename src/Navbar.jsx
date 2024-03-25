@@ -11,8 +11,8 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="bg-gray-200 text-gray-900">
-      <nav className="bg-gray-300 text-gray-800 py-4 flex justify-between items-center">
+    <div className="bg-gray-200 text-gray-100">
+      <nav className="bg-gray-300 text-gray-100 py-4 flex justify-between items-center">
         <div className="flex items-center">
           <a href="https://exchangify.com.ng" target="_blank" rel="noopener noreferrer" className="text-gray-800 text-2xl ml-4 mr-2">
             <MdCurrencyExchange className="text-gray-800" style={{ transform: shouldRotate ? 'rotate(360deg)' : 'none', transition: 'transform 1s' }} />
