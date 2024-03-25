@@ -16,7 +16,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className={isDarkMode ? "bg-gray-900 text-white min-h-screen" : "bg-gray-200 text-gray-900 min-h-screen"}>
+    <div>
       <nav className={isDarkMode ? "bg-gray-800 text-white py-4 flex justify-between items-center" : "bg-gray-300 text-gray-800 py-4 flex justify-between items-center"}>
         <div className="flex items-center">
           <a href="https://exchangify.com.ng" target="_blank" rel="noopener noreferrer" className="text-gray-800 text-2xl ml-4 mr-2">
