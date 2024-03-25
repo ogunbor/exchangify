@@ -2,13 +2,13 @@ import React, { useEffect, useState } from 'react';
 import bitcoinImage from './assets/rsz_1bitcoin2cash.png';
 import giftCardsImage from './assets/rsz_gift-cards.png';
 
-const ImageSlider = ({ isDarkMode }) => {
+const ImageSlider = () => {
   const [imageIndex, setImageIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setImageIndex(prevIndex => (prevIndex + 1) % 2);
-    }, 2000); // Change image every 2 seconds
+    }, 4000); // Change image every 4 seconds
 
     // Clear interval on component unmount
     return () => clearInterval(interval);
@@ -30,7 +30,7 @@ const ImageSlider = ({ isDarkMode }) => {
       <img
         src={images[imageIndex]}
         alt={`Image ${imageIndex + 1}`}
-        style={{ width: '100%', height: 'auto' }}
+        style={{ width: '100%', height: '250px', objectFit: 'cover' }}
       />
     </div>
   );
